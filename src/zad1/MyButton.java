@@ -47,7 +47,7 @@ public class MyButton extends Button {
                 }else{
                     startStatus=false; //Wątek wstrzymany
                     setText("Continue T" + number);
-                    isRunning=false;
+                    // isRunning=false;
                     statusThread=false;
 
                     //System.out.println(statusThread);
